@@ -35,9 +35,11 @@ public class AuthenticationServlet extends HttpServlet {
 		}
 		
 		UniversalAuthenticatorClient uac = new UniversalAuthenticatorClient(properties);
-		if(uac.authenticate(text)) {
+		
+		try {
+			uac.authenticate(text);
 			response.sendRedirect("success.jsp");
-		} else {
+		} catch(IOException ex) {
 			response.sendError(401);
 		}
 		
