@@ -78,6 +78,7 @@ $(document).ready(function() {
 				+ '&email=' + $('#email').val() 
 				+ '&serverHost=' + $('#serverHost').val() 
 				+ '&serverPort=' + $('#serverPort').val() 
+				+ '&serverPath=' + $('#serverPath').val()
 				+ '&keyServerHost=gateway2.sshtools.com&keyServerPort=443">');
 		$('#generatedQRCode').append('<p>Once registered you can verify authentication <a href="authenticate.jsp">here</a>.');
 	});
