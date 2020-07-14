@@ -10,9 +10,8 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>universal-authenticator-consumer Maven Webapp</name>
-	<!-- FIXME change it to the project's website -->
-	<url>http://www.example.com</url>
+	<name>Universal Authenticator Demo Webapp</name>
+	<url>https://github.com/ludup/universal-authenticator-consumer</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
